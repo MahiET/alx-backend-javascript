@@ -1,0 +1,19 @@
+ES6 classes
+=
+
+Classes are in fact "special functions", and just as you can define function expressions and function declarations, the class syntax has two components: classexpressions and class declarations.
+
+      class Rectangle {
+        constructor(height, width) {
+         this.height = height;
+         this.width = width;
+        }
+       }
+
+Class expressions
+=
+A class expression is another way to define a class. Class expressions can be named or unnamed. The name given to a named class expression is local to the class's body. However, it can be accessed via the name property.
+
+Class body and method definitions
+=
+
